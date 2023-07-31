@@ -1,0 +1,53 @@
+.container { 
+  margin-top: 1em;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.row{
+  justify-content: center;
+}
+
+.col{
+  flex-grow: 0;
+}
+
+.main_div {
+  width: 20rem;
+}
+
+.info_btn {
+  position: relative;
+  left: 15px;
+}
+
+.logo {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.card-title{
+  font-size:small;
+  font-weight: 900;
+  text-align: center;
+}
+.card-text {
+  height: 250px;
+  overflow-y: scroll;
+  text-align: center;
+}
+.card-body{
+  text-align: center;
+}
+
+.company_name,
+.type_job_p {
+  background-color: rgba(211, 211, 211, 0.645);
+  height: 40px;
+  margin-bottom: 0%;
+}
+
+.card {
+  margin: 10px;
+}
+
